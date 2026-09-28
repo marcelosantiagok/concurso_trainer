@@ -2,12 +2,13 @@
 from pathlib import Path
 from PyInstaller.utils.hooks import collect_all
 
-project = Path(r"E:\Projetos\concurso_trainer_atualizado\concurso_trainer")
+# Use the directory containing this .spec so builds work after cloning
+# the repository to a different path.
+project = Path(SPECPATH).resolve()
 datas = [(str(project / name), ".") for name in ("icone.ico", "icone.png")]
 binaries = []
 hiddenimports = []
 
-# Include data and native extensions used by the PDF features.
 for package in ("fitz", "reportlab", "pypdf"):
     package_datas, package_binaries, package_hiddenimports = collect_all(package)
     datas += package_datas

@@ -1,0 +1,20 @@
+.venv/
+__pycache__/
+*.py[cod]
+
+# Saídas do PyInstaller e instalador
+build/
+dist/
+installer/
+*.spec.bak
+
+# Bancos e arquivos locais de dados
+*.db
+*.sqlite
+*.sqlite3
+
+# Arquivos temporários do editor e do sistema
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

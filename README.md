@@ -17,6 +17,21 @@
   <img alt="Anúncios" src="https://img.shields.io/badge/anúncios-nenhum-brightgreen">
 </p>
 
+## 🚀 Download
+
+A versão atual do instalador para Windows está disponível para download pelo Google Drive:
+
+<p align="center">
+  <a href="https://drive.google.com/file/d/1WGrHlfoKhiJhLhY2F_ecixkjdjQu6Hl4/view?usp=drivesdk">
+    <strong>⬇️ BAIXAR CONCURSO TRAINER — INSTALADOR WINDOWS</strong>
+  </a>
+</p>
+
+> **Nota:** o instalador está hospedado temporariamente no Google Drive porque o upload do arquivo na área de Releases do GitHub apresentou problemas.
+
+O instalador é para **Windows 64 bits** e não exige que o Python esteja instalado no computador de uso.
+
+
 O **Concurso Trainer** é um aplicativo de estudos para quem está se preparando para concursos públicos. Em vez de depender de uma plataforma paga, você monta e organiza seu próprio banco de questões, pratica, acompanha seu desempenho e revisa os conteúdos no computador.
 
 ## Por que usar
